@@ -1,0 +1,66 @@
+.logo{
+  margin-right: 5px;
+}
+.mini-site{
+  color: #828282;
+  font-size: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+.subtext{
+  padding: -12px;
+}
+.subtext a{
+  font-size: 7pt;
+  color: #828282;
+}
+.score{
+  font-size: 7pt;
+}
+.votearrow {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  margin: 3px 2px 6px;
+  background: url('http://ycombinator.com/images/grayarrow.gif') no-repeat;
+}
+.morelink{
+  color: #828282;
+}
+.links{
+  font-size: 10px;
+}
+input[type='text']{
+  height: 18px;
+}
+
+@media only screen and (max-width: 750px) and (min-width: 300px){
+
+  .logo{
+    font-size: 15px;
+  }
+  .topnav{
+    height: 35px;
+    line-height: 13px;
+  }
+  span.pagetop {
+    margin: 3px 5px;
+    font-size: 12px;
+  }
+  input[type='text'] {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+
+
+@media only screen and (min-width: 992px){
+  .general{
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+}

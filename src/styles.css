@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  color: #828282;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+
+@media only screen and (max-width: 750px) and (min-width: 300px) {
+
+  body{
+    margin-top: 0;
+  }
+}
